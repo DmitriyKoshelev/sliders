@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.conteiner {
+
+	width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.conteiner:after {
+	display: table;
+	content: ' ';
+	clear: both;
+}
+
+.clearFix:after {
+	display: table;
+	content: ' ';
+	clear: both;
+}
+
+.listReset {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
