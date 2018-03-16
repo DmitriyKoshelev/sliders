@@ -28,15 +28,15 @@
 
     display: block;
 
-    width: 25px;
-    height: 32px;
+    width: 51px;
+    height: 65px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
 
     cursor: pointer;
-
+margin-left: 25px;
     color: transparent;
     border: none;
     outline: none;
@@ -56,15 +56,15 @@
 
     display: block;
 
-    width: 25px;
-    height: 32px;
+    width: 51px;
+    height: 65px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
 
     cursor: pointer;
-
+margin-right: 25px;
     color: #000;
     border: none;
     outline: none;

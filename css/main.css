@@ -226,7 +226,7 @@ span:hover {
 }
 
  .banner__logo {
-position: absolute;
+	position: absolute;
     top: 57%;
     bottom: 0;
     left: 0;
@@ -239,9 +239,8 @@ position: absolute;
     color: #fff;
     line-height: 1;
     text-align: center;
-	
+	z-index: 1;
     text-transform: uppercase;
-    color: #fff;
 }
 
 
@@ -264,6 +263,109 @@ position: absolute;
 }
 
 /*---------banner--------*/
+
+.cont__banner {
+	background-size: cover;
+	background-repeat: repeat;
+
+}
+
+.fot__ban {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.fot_text {
+	position: absolute;
+    width: 50%;
+    top: 47%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.fot_text1 {
+	position: absolute;
+    width: 50%;
+    top: 47%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fot_text2 {
+	position: absolute;
+    width: 52%;
+    top: 47%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.fot_btn {
+	position: absolute;
+    width: 15%;
+    height: 42px;
+    top: 40%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fot_btn1 {
+	position: absolute;
+    width: 15%;
+    height: 42px;
+    top: 40%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fot_btn2 {
+	position: absolute;
+    width: 15%;
+    height: 42px;
+    top: 40%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
 
  /*.cont__banner {
 	position: relative;
@@ -292,7 +394,7 @@ position: absolute;
 	z-index: 1;
 }*/
 
-.btn__banner {
+/*.btn__banner {
 	position: absolute;
 	width: 22%;
 	height: 15%
@@ -301,7 +403,7 @@ position: absolute;
 	right: 0;
 	bottom: 90px;
 	margin: auto;
-	z-index: 1;
+	z-index: 0;
 	padding: 9px;
 	color: #fff;
 	font-size: 16px;
@@ -309,11 +411,11 @@ position: absolute;
 	text-transform: uppercase;
 	text-decoration: none;
 	background-color: transparent;
-}
+}*/
 
-.btn__banner a {
+/*.btn__banner a {
 	border:1px solid #fff;
-}
+}*/
 
 a {
 	text-decoration: none;
