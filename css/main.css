@@ -1,36 +1,78 @@
 
+.hidn {
+	position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    padding: 20px;
+}
 
 
-
-
-
-
-
-
-
-
-.wraper {
-
-	background-image: url(../images/logo1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;	
-	height: 100vh;
+.wraper_picture {
+	width: 100%;
+	height:auto;
 
 }
+
+.text_wraper {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+
 
 .text_wraper {
 	position: absolute;
 	width: 333px;
     height: 74px;
 	top: 0;
-    bottom: 0;
+    bottom: 326px;
     left: 0;
-    right: 0;
+    right: 0%;
     margin: auto;
+    z-index: 2;
 }
 
+.text_wraper1 {
+	position: absolute;
+	width: 333px;
+    height: 74px;
+	top: 0;
+    bottom: 326px;
+    left: 0;
+    right: 71%;
+    margin: auto;
+    z-index: 2;
+}
+
+.text_wraper2 {
+	position: absolute;
+	width: 333px;
+    height: 74px;
+	top: 0;
+    bottom: 326px;
+    left: 0;
+    right: 28%;
+    margin: auto;
+    z-index: 2;
+}
+
+.text_wraper3 {
+	position: absolute;
+	width: 333px;
+    height: 74px;
+	top: 0;
+    bottom: 326px;
+    left: 0;
+    right: 57%;
+    margin: auto;
+    z-index: 2;
+}*/
 
 .header {
+
 	padding-top: 20px;
 }
 
@@ -278,7 +320,7 @@ span:hover {
 
 .fot_text {
 	position: absolute;
-    width: 50%;
+    width: 51%;
     top: 47%;
     bottom: 0;
     right: 0;
@@ -291,7 +333,7 @@ span:hover {
 
 .fot_text1 {
 	position: absolute;
-    width: 50%;
+    width: 52%;
     top: 47%;
     bottom: 0;
     right: 0;
@@ -305,7 +347,7 @@ span:hover {
 
 .fot_text2 {
 	position: absolute;
-    width: 52%;
+    width: 53%;
     top: 47%;
     bottom: 0;
     right: 0;
@@ -365,6 +407,10 @@ span:hover {
     font-size: 17px;
     text-align: center;
     text-transform: uppercase;
+}
+.foot__picture {
+	width: 100%;
+	height: auto;
 }
 
  /*.cont__banner {

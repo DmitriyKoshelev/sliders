@@ -4,3 +4,21 @@ $ ('.cont__banner').slick({
 })
 });
 
+
+$ (function  () {
+$ ('.wraper').slick({
+		arrows:false,
+      	autoplay:false
+})
+});
+
+$ (function  () {
+$ ('.wraper').slick({
+      arrows:false
+})
+});
+
+
+
+
+
