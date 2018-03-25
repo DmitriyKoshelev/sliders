@@ -9,7 +9,7 @@
 }
 
 
-.wraper_picture {
+.wraper_picture img {
 	width: 100%;
 	height:auto;
 
@@ -362,7 +362,7 @@ span:hover {
 	position: absolute;
     width: 15%;
     height: 42px;
-    top: 40%;
+    top: 65%;
     bottom: 0;
     right: 0;
     left: 0;
@@ -379,7 +379,7 @@ span:hover {
 	position: absolute;
     width: 15%;
     height: 42px;
-    top: 40%;
+    top: 65%;
     bottom: 0;
     right: 0;
     left: 0;
@@ -396,7 +396,7 @@ span:hover {
 	position: absolute;
     width: 15%;
     height: 42px;
-    top: 40%;
+    top: 65%;
     bottom: 0;
     right: 0;
     left: 0;

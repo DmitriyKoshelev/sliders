@@ -7,16 +7,16 @@ $ ('.cont__banner').slick({
 
 $ (function  () {
 $ ('.wraper').slick({
-		arrows:false,
-      	autoplay:false
+      	arrows:false
 })
 });
 
 $ (function  () {
 $ ('.wraper').slick({
-      arrows:false
+      	autoplay:false
 })
 });
+
 
 
 
